@@ -15,7 +15,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "importsNotUsedAsValues": "error"
+    "verbatimModuleSyntax": true,
+    "ignoreDeprecations": "5.0" // Optional, to silence the deprecation warning
   },
   "include": ["./src"]
 }
+
